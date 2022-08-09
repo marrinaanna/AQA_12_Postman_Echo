@@ -15,7 +15,7 @@ class MobileBankTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("anya"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
